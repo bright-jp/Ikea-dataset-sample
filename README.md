@@ -1,71 +1,70 @@
 # # Ikea-dataset-samples
 
-<h2>A sample dataset of 1001 Ikea products</h2>
+<h2>1001件のIkea製品のサンプルデータセット</h2>
 
 ![Ikea dataset header](https://github.com/luminati-io/Ikea-dataset-sample/blob/main/Ikea-datasets.png)
 
-A Ikea dataset sample of over 1000 records. Dataset was extracted using the <b>Bright Data API</b>.
+1000件以上のレコードを含むIkeaデータセットのサンプルです。データセットは <b>Bright Data API</b> を使用して抽出されました。
 
-<h2>Some of the data points that are included in the Ikea dataset:</h2>
+<h2>Ikeaデータセットに含まれるデータポイントの一部:</h2>
 
-* ```description```: Textual details describing the Ikea product
-* ```in_stock```: Indicates whether the product is currently in stock
-* ```color```: Color or color options available for the product
-* ```size```: Size or size options of the product
-* ```reviews_count```: Total count of reviews for the product
-* ```main_image```: Reference or link to the main image of the product
-* ```category_url```: URL link to the category of the product
-* ```category```: The category to which the product belongs
-* ```category_id```: Unique identifier for the category
-* ```category_tree```: Hierarchical representation of the product's category
-* ```rating```: Average rating of the product
-* ```image_urls```: References or links to images of the product
-* ```designer```: Designer associated with the product
-* ```details```: Additional details about the product
-* ```brand```: Brand associated with the product
-* ```related_products```: Products related to the current product
-* ```model_number```: The model number of the product
-* ```video_count```: Total count of videos related to the product
-* ```videos```: References or links to videos related to the product
-* ```image_count```: Total count of images associated with the product
-* ```badges```: Badges or labels associated with the product
-* ```care```: Care instructions or details for the product
-* ```documents```: Documents related to the product
-* ```facts```: Facts or specific information about the product
-* ```materials_description```: Description of materials used in the product
-* ```measurements```: Dimensions or measurements of the product
-* ```model_name```: Name or title of the product model
-* ```offers```: Offers or promotions associated with the product
-* ```other_attributes```: Additional attributes or features of the product
-* ```packages_description```: Description of product packaging
-* ```product_series```: Series to which the product belongs
+* ```description```: Ikea製品を説明するテキストの詳細
+* ```in_stock```: 製品が現在在庫ありかどうかを示します
+* ```color```: 製品で利用可能な色、または色のオプション
+* ```size```: 製品のサイズ、またはサイズのオプション
+* ```reviews_count```: 製品のレビュー総数
+* ```main_image```: 製品のメイン画像への参照またはリンク
+* ```category_url```: 製品カテゴリへのURLリンク
+* ```category```: 製品が属するカテゴリ
+* ```category_id```: カテゴリの一意識別子
+* ```category_tree```: 製品カテゴリの階層表現
+* ```rating```: 製品の平均評価
+* ```image_urls```: 製品画像への参照またはリンク
+* ```designer```: 製品に関連するデザイナー
+* ```details```: 製品の追加詳細
+* ```brand```: 製品に関連するブランド
+* ```related_products```: 現在の製品に関連する製品
+* ```model_number```: 製品の型番
+* ```video_count```: 製品に関連する動画の総数
+* ```videos```: 製品に関連する動画への参照またはリンク
+* ```image_count```: 製品に関連付けられた画像の総数
+* ```badges```: 製品に関連付けられたバッジまたはラベル
+* ```care```: 製品のお手入れ方法、またはお手入れに関する詳細
+* ```documents```: 製品に関連するドキュメント
+* ```facts```: 製品に関する事実、または特定情報
+* ```materials_description```: 製品に使用されている素材の説明
+* ```measurements```: 製品の寸法または測定値
+* ```model_name```: 製品モデルの名称またはタイトル
+* ```offers```: 製品に関連するオファーまたはプロモーション
+* ```other_attributes```: 製品の追加属性または特徴
+* ```packages_description```: 製品パッケージの説明
+* ```product_series```: 製品が属するシリーズ
 
-And a lot more.
+ほかにも多数あります。
 
-This is a sample subset which is derived from the "Ikea products"
-dataset which includes more than <b>71.9K records</b>.
+これは「Ikea products」データセットから派生したサンプルのサブセットであり、このデータセットには <b>71.9K件以上のレコード</b> が含まれます。
 
-Available dataset file formats: <b>JSON, NDJSON, JSON Lines, CSV, or Parquet. Optionally, files can be compressed to .gz</b>.
+利用可能なデータセットファイル形式: <b>JSON, NDJSON, JSON Lines, CSV, or Parquet. Optionally, files can be compressed to .gz</b>。
 
-Dataset delivery type options: <b>Email, API download, Webhook, Amazon S3, Google Cloud storage, Google Cloud PubSub, Microsoft Azure, Snowflake, SFTP</b>.
+データセット配信タイプのオプション: <b>Email, API download, Webhook, Amazon S3, Google Cloud storage, Google Cloud PubSub, Microsoft Azure, Snowflake, SFTP</b>。
 
-Update frequency: <b>Once, Daily, Weekly, Monthly, Quarterly, or Custom basis</b>.
+更新頻度: <b>Once, Daily, Weekly, Monthly, Quarterly, or Custom basis</b>。
 
-Data enrichment available as an addition to the data points extracted: <b>Based on request.</b>
+抽出されたデータポイントに追加できるデータエンリッチメント: <b>Based on request.</b>
 
-<b>[Get the full Ikea dataset](https://brightdata.com/products/datasets/ikea)</b>.
+<b>[Get the full Ikea dataset](https://brightdata.jp/products/datasets/ikea)</b>。
 
-<h2>What are the Ikea datasets use cases?</h2>
+<h2>Ikeaデータセットのユースケースとは？</h2>
 
-<h3>1. Pricing Optimization</h3>
-Develop a pricing strategy and implement dynamic pricing models by comparing similar IKEA products and categories with those of competitors.
+<h3>1. 価格最適化</h3>
+類似するIKEA製品およびカテゴリを競合他社のものと比較することで、価格戦略を策定し、ダイナミックプライシングモデルを実装します。
 
-<h3>2. Identify Gaps</h3>
-Identify inventory gaps, rising demand for specific IKEA products, and trending items among consumers.
+<h3>2. ギャップの特定</h3>
+在庫のギャップ、特定のIKEA製品に対する需要の増加、消費者の間でトレンドとなっているアイテムを特定します。
 
-<h3>3. Market Strategy Optimization</h3>
-Utilize the IKEA dataset to analyze market strategies, uncover key trends, and understand customer preferences.
+<h3>3. 市場戦略の最適化</h3>
+IKEAデータセットを活用して市場戦略を分析し、重要なトレンドを明らかにし、顧客の嗜好を理解します。
 
-<h2>Free access to web scraping tools and datasets for academic researchers and NGOs</h2>
+<h2>学術研究者およびNGO向けのWebスクレイピングツールとデータセットへの無料アクセス</h2>
 
-The Bright Initiative offers access to Bright Data's <b>[Web Scraper APIs](https://brightdata.com/products/web-scraper)</b> and <b>[ready-to-use datasets](https://brightdata.com/products/datasets)</b> to leading academic faculties and researchers, NGOs and NPOs promoting various environmental and social causes. You can submit an application <b>[here](https://brightinitiative.com)</b>.
+Bright Initiativeは、さまざまな環境・社会的活動を推進する主要な学術機関・研究者、NGOおよびNPOに対して、Bright Dataの <b>[Web Scraper APIs](https://brightdata.jp/products/web-scraper)</b> と <b>[すぐに使えるデータセット](https://brightdata.jp/products/datasets)</b> へのアクセスを提供しています。申請は <b>[こちら](https://brightinitiative.com)</b> から提出できます。
