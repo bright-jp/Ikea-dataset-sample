@@ -1,4 +1,4 @@
-# # Ikea-dataset-samples
+# # Ikea データセットサンプル
 
 <h2>1001件のIkea製品のサンプルデータセット</h2>
 
